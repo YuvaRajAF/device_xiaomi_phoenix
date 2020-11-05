@@ -29,6 +29,9 @@ TARGET_USES_64_BIT_BINDER := true
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
+# ANXCamera
+-include vendor/aeonax/ANXCamera/BoardConfigAnx.mk
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := phoenix,phoenixin
 TARGET_NO_BOOTLOADER := true
